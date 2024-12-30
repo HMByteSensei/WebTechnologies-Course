@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .tabs {
+            display: flex;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        .tab {
+            padding: 10px 20px;
+            background: #f1f1f1;
+            border: 1px solid #ccc;
+            margin-right: 5px;
+        }
+        .tab.active {
+            background: #ccc;
+        }
+        #content {
+            border: 1px solid #ccc;
+            padding: 20px;
+            min-height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tabs">
+        <div class="tab" onclick="loadContent('stranica1.html')">Tab 1</div>
+        <div class="tab" onclick="loadContent('stranica2.html')">Tab 2</div>
+        <div class="tab" onclick="loadContent('stranica3.html')">Tab 3</div>
+    </div>
+
+    <div id="content">
+        <p>Izaberi tab da se prikaze sadrzaj.</p>
+    </div>
+
+    <script>
+        function loadContent(page) {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', page, true);
+            xhr.onload = function() {
+                if (this.status === 200) {
+                    document.getElementById('content').innerHTML = this.responseText;
+                    setActiveTab(page);
+                }
+            };
+            xhr.send();
+        }
+
+        function setActiveTab(page) {
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => {
+                tab.classList.remove('active');
+                if (tab.innerText.toLowerCase() === 'tab ' + page.charAt(page.length - 5)) {
+                    tab.classList.add('active');
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>
