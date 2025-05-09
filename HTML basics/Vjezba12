@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="bh">
+    <head>
+        <meta charset="UTF-8">
+
+    </head>
+    <body>
+        <form>
+            <label for="ime">Ime: </label>
+            <input id="ime" name="ime">
+
+            <label for="prezime">Prezime: </label>
+            <input id="prezime" name="prezime">
+            <label for="grad">grad: </label>
+            <input id="grad" name="grad">
+            
+            <label for="broj-indexa">Broj Indexa: </label>
+            <input id="broj-indexa" name="broj-indexa">
+
+            <label for="spol">Spol:
+                <input type="radio" id="m" name="spol" value="Muški">
+                <label for="m">Muški</label>    
+                <input type="radio" id="z" name="spol" value="Ženski">
+                <label for="z">Ženski</label>
+            </label>    
+
+            <input type="checkbox" id="redovni" name="vrsta" value="Samofinancirajući">
+            <label for="redovni">Samofinancirajući</label>
+
+            <label>
+                <input type="radio" id="ri" name="odsjek" value="RI">
+                <label for="ri">RI</label>  
+
+                <input type="radio" id="ae" name="odsjek" value="AE">
+                <label for="ae">AiE</label>  
+
+                <input type="radio" id="en" name="odsjek" value="EN">
+                <label for="en">EE</label>  
+
+                <input type="radio" id="tk" name="odsjek" value="TK">
+                <label for="tk">TK</label>  
+
+            </label>
+
+            <input type="button" id="sub" value="Submit">
+            <input type="button" id="res" value="Reset">
+        </form>
+    </body>
+</html>
