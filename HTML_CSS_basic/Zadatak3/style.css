@@ -1,0 +1,10 @@
+progress {
+  display: inline;
+}
+
+.dat,
+.em,
+.dugme {
+  display: block;
+  margin-bottom: 10px;
+}
