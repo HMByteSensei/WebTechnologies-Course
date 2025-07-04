@@ -1,0 +1,20 @@
+.tablica-mnozenja {
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+
+.tablica-mnozenja th,
+.tablica-mnozenja td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.tablica-mnozenja th {
+  background-color: #cccccc;
+  font-weight: bold;
+}
+
+.tablica-mnozenja td {
+  background-color: #fff2cc;
+}
