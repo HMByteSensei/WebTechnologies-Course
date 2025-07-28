@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zapremina sfere</title>
+  </head>
+  <body>
+    <h3>Izračunaj zapreminu sfere</h3>
+    <form id="sphereForm" onsubmit="calculateVolume(event)">
+      <label for="radius">Radius</label><br />
+      <input type="number" id="radius" step="0.01" required /><br />
+      <label for="volumen">Volumen</label><br />
+      <input type="text" id="volumen" readonly value="0.0000" /><br />
+      <button type="submit">Calculate</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
