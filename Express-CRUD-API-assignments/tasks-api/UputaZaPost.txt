@@ -1,0 +1,3 @@
+curl -X POST http://localhost:8085/zadatak -H "Content-Type: application/json" -d "{\"id\":\"3\",\"naziv\":\"Zadatak 3\",\"opis\":\"Opis zadatka 3\"}"
+
+je primjer kako bi dodao novi tast
