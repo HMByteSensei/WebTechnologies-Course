@@ -2,14 +2,14 @@
 
 This project contains a collection of assignments and exercises completed throughout the semester, demonstrating fundamental concepts in HTML, CSS, and vanilla JavaScript, as well as server-side development with Node.js and Express.
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [About The Project](#about-the-project)
 - [Technologies Used](#technologies-used)
 - [Setup and Running Instructions](#setup-and-running-instructions)
 - [Author](#author)
 
-## 📖 About The Project
+## About The Project
 
 This repository serves as a portfolio of my work, illustrating my progress and understanding of core web development principles. The assignments range from creating static layouts and responsive designs to building interactive client-side applications and simple server-side APIs. Each task is self-contained in its own directory, showcasing a specific skill or concept.
 
@@ -31,11 +31,11 @@ Key concepts explored in this repository include:
 - **Data Formats:** JSON, CSV, XML
 - **Tools:** Git, Visual Studio Code, [Any other tools you used, e.g., Postman, NPM]
 
-## ✨ Key Assignments Showcase
+## Key Assignments Showcase
 
 Here are some highlights from the repository that demonstrate key skills.
 
-### 🎨 Static HTML & CSS Projects
+### Static HTML & CSS Projects
 
 - **Responsive Card Layout:** A project demonstrating the use of CSS Flexbox/Grid and relative units (`rem`, `vw`, `clamp()`) to create a fully responsive card layout that adapts to all screen sizes.
 - **Table Styling:** An exercise in styling standard HTML tables with custom borders, colors, and spacing using `border-collapse` and pseudo-selectors.
@@ -45,12 +45,12 @@ Here are some highlights from the repository that demonstrate key skills.
 - **Tabbed Navigation (`/javascript-dom-tasks/tabbed-navigation/`):** A Single Page Application (SPA) interface where content for different sections is loaded dynamically using JavaScript without a page reload. This project heavily utilizes event listeners and DOM manipulation to create a seamless user experience.
 - **Interactive Dice Game:** A game built with vanilla JS, demonstrating class-based object-oriented programming, DOM element creation, and complex state management through event listeners.
 
-### 🌐 Asynchronous JavaScript & APIs
+### Asynchronous JavaScript & APIs
 
 - **Creature Search App:** An application that uses the `fetch` API to send a GET request to an external API (FreeCodeCamp's RPG Creature API). It handles asynchronous operations with Promises (`.then/.catch` or `async/await`) and dynamically updates the DOM with the fetched data.
 - **AJAX Form Submission (`/asynchronous-js-tasks/ajax-form-submission/`):** An HTML form that submits data to a server endpoint in JSON format without a page refresh. This demonstrates preventing default form behavior and handling the server's response asynchronously.
 
-### 🚀 Node.js & Express Server
+### Node.js & Express Server
 
 - **CSV to JSON API (`/node-express-server-tasks/csv-to-json-api/`):** A simple Node.js server that reads a local `.txt` file in CSV format, parses it, and serves the content as a structured JSON object via a GET endpoint.
 - **CRUD Tasks API (`/node-express-server-tasks/crud-tasks-api/`):** A more advanced RESTful API built with Express.js that handles GET, POST, and PUT requests to manage a list of tasks stored in a CSV file. This includes input validation and returning appropriate status messages.
