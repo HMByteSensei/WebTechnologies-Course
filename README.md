@@ -40,7 +40,7 @@ Here are some highlights from the repository that demonstrate key skills.
 - **Responsive Card Layout:** A project demonstrating the use of CSS Flexbox/Grid and relative units (`rem`, `vw`, `clamp()`) to create a fully responsive card layout that adapts to all screen sizes.
 - **Table Styling:** An exercise in styling standard HTML tables with custom borders, colors, and spacing using `border-collapse` and pseudo-selectors.
 
-### 🤖 JavaScript DOM Manipulation
+### JavaScript DOM Manipulation
 
 - **Tabbed Navigation (`/javascript-dom-tasks/tabbed-navigation/`):** A Single Page Application (SPA) interface where content for different sections is loaded dynamically using JavaScript without a page reload. This project heavily utilizes event listeners and DOM manipulation to create a seamless user experience.
 - **Interactive Dice Game:** A game built with vanilla JS, demonstrating class-based object-oriented programming, DOM element creation, and complex state management through event listeners.
