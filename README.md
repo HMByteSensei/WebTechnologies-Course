@@ -7,7 +7,6 @@ This project contains a collection of assignments and exercises completed throug
 - [About The Project](#about-the-project)
 - [Technologies Used](#technologies-used)
 - [Setup and Running Instructions](#setup-and-running-instructions)
-- [Author](#author)
 
 ## About The Project
 
